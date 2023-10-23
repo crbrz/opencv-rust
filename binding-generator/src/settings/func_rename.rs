@@ -271,6 +271,7 @@ pub static FUNC_RENAME: Lazy<HashMap<&str, &str>> = Lazy::new(|| {
 		("cv_cuda_GpuMat_ptr_int", "+_mut"),
 		("cv_cuda_GpuMat_rowRange_const_int_int", "row_bounds"),
 		("cv_cuda_GpuMat_upload_const__InputArrayR_StreamR", "+_async"),
+		("cv_cuda_convertFp16_const__InputArrayR_const__OutputArrayR_StreamR", "+_async"),
 		("cv_directx_getTypeFromD3DFORMAT_const_int", "get_type_from_d3d_format"),
 		("cv_divide_const__InputArrayR_const__InputArrayR_const__OutputArrayR_double_int", "+2"),
 		("cv_getNumberOfCPUs", "get_number_of_cpus"),

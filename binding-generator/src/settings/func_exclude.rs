@@ -85,7 +85,6 @@ pub static FUNC_EXCLUDE: Lazy<HashSet<&str>> = Lazy::new(|| {
 		"cv_SparseMatConstIterator_operatorSS",
 		"cv_SparseMatIterator_SparseMatIterator_SparseMatX_const_intX",
 		"cv__OutputArray__OutputArray_const_vectorLGpuMatGR",
-		"cv_cuda_convertFp16_const__InputArrayR_const__OutputArrayR_StreamR",
 		"cv_getImpl_vectorLintGR_vectorLStringGR",
 		// ### dnn ###
 		"cv_dnn_BackendNode_BackendNode_int",
